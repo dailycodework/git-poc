@@ -14,6 +14,7 @@ public class TextAreaTest extends JFrame {
 
         JTextArea textArea = new JTextArea(20, 50);
         JTextField textField = new JTextField("This is the text for testing", 40);
+        JTextField newTextFied = new JTextField("Another Field");
         JPanel panel = new JPanel();
         panel.setLayout(new FlowLayout());
 
